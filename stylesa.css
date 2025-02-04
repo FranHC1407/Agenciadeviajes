@@ -1,0 +1,164 @@
+
+ {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #E8DCCA;
+    color:#0c255e;
+    padding: 15px ;
+    text-align: center;
+}
+
+nav {
+    background-color: #0c255e;
+    overflow: hidden;
+}
+
+nav a {
+    color: #E8DCCA;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: inline-block;
+    text-align: center;
+}
+
+nav a:hover {
+    background-color: #575757;
+}
+
+
+.destination-details {
+    padding: 30px;
+    background-color: #fff;
+    margin: 20px auto;
+    max-width: 1200px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.destination-details h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #003366;
+}
+
+.destination-details h3 {
+    font-size: 1.4rem;
+    color: #555;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.destination-details p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    color: #444;
+    line-height: 1.8;
+}
+
+.destination {
+    margin-bottom: 30px;
+}
+
+.destination h4 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #003366;
+}
+
+.place-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.place-box iframe {
+    flex: 1;
+    max-width: 48%;
+    border-radius: 10px;
+}
+
+.place-box p {
+    flex: 1;
+    font-size: 1.1rem;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+table th {
+    background-color: #003366;
+    color: #fff;
+}
+
+
+ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+h3 {
+    font-size: 1.7rem;
+    margin-top: 40px;
+    color: #003366;
+}
+
+h4 {
+    font-size: 1.6rem;
+    color: #003366;
+    margin-top: 20px;
+}
+
+
+h3, p {
+    text-align: center;
+}
+
+h4 {
+    text-align: left;
+    font-size: 1.4rem;
+}
+
+
+footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    font-size: 1rem;
+    margin: 0;
+}
