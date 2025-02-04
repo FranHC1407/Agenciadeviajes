@@ -1,0 +1,165 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+ 
+header {
+    background-color: #E8DCCA;
+    color:#0c255e;
+    padding: 1px 0;
+    text-align: center;
+}
+ 
+nav {
+    background-color: #0c255e;
+    overflow: hidden;
+  
+}
+ 
+nav a {
+    color: #E8DCCA;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: inline-block;
+    text-align: center;
+
+}
+ 
+nav a:hover {
+    background-color: #575757;
+}
+ 
+/* Contenido */
+.content {
+    padding: 20px;
+}
+ 
+.about {
+  margin-bottom: 20px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); }
+.about h2 {
+    color: #333;
+    font-size: 3em;
+    margin-top: 0;
+  text-align: center;
+}
+.about p {
+    font-size: 1.1em;
+    color: #555;
+  text-align: center;
+}
+.about img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  display:block;
+margin:auto;
+}
+.destination {
+    margin-bottom: 20px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+ 
+.destination img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 8px;
+  display:block;
+margin:auto;
+}
+ 
+.destination h2 {
+    color: #333;
+    font-size: 2em;
+    margin-top: 0;
+}
+ 
+.destination p {
+    font-size: 1.1em;
+    color: #555;
+}
+   footer {
+            background-color: #333;
+            color: white;
+            padding: 1rem;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+     text-align: center;
+        }
+form {
+            background: white;
+            padding: 20px;
+            max-width: 400px;
+            margin: auto;
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+        }
+       .form-container {
+    background-color: #fff;
+    width: 50%;
+    margin: 50px auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Estilo para los grupos de entrada */
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.input-group input,
+.input-group select,
+.input-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.input-group input:focus,
+.input-group select:focus,
+.input-group textarea:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+/* Estilo para el botón */
+.submit-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    width: 100%;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.submit-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+    .form-container {
+        width: 90%;
+    }
+}
