@@ -8,7 +8,7 @@ document.querySelector(".travel-form").addEventListener("submit", function (even
     if (errorSpan) errorSpan.remove();
   });
 
-  // Obtener los valores de los campos
+
   const nombre = document.getElementById("nombre").value.trim();
   const email = document.getElementById("email").value.trim();
   const telefono = document.getElementById("telefono").value.trim();
@@ -69,7 +69,7 @@ document.querySelector(".travel-form").addEventListener("submit", function (even
   }
 });
 
-// Función para mostrar mensajes de error
+
 function mostrarError(campoId, mensaje) {
   const inputGroup = document.getElementById(campoId).closest(".input-group");
   const errorSpan = document.createElement("span");
